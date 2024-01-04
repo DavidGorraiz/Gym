@@ -1,0 +1,132 @@
+header{
+    background-color: rgba(15, 15, 15, 0.948);
+    border: 1px solid #000000;
+    border-radius: 0%;
+}
+
+#logo{
+    width: 10%;
+    position: relative;
+    left: 15%;
+}
+
+nav{
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: capitalize;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #949904;
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+}
+
+#servicios{
+    padding: 50px;
+}
+
+.titulo-servicios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.lista-servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.lista-servicios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lista-servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+.lista-servicios li:hover{
+    border-color: #949904;
+}
+
+.lista-servicios li:active{
+    border-color: #08368c;
+}
+
+.lista-servicios li:hover h2{
+    font-size: 33px;
+}
+
+.img-servicios{
+    width: 60%;
+}
+
+#ubicacion{
+    padding: 50px;
+}
+
+.titulo-ubicacion{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: large;
+}
+
+.mapa{
+    padding: 3em 0;
+    height: 300px;
+}
+
+#pago{
+    padding: 50px;
+    color: black;
+}
+
+.titulo-pago{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#logo-footer{
+    width: 10%;
+    position: relative;
+    padding: 1.5%;
+}
